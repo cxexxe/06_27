@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="company.css">
+    <link rel="stylesheet" href="company.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/83ff0e0a6f.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="wrap">
+        <!-- header -->
+        <header class="header">
+            <div class="header-inner layout">
+                <h1 class="logo"><a href="index.html">
+                    <img src="img/모나미 로고.png" alt=""></a>
+                </h1>
+                <nav class="header-gnb">
+                    <ul class="gnb-depth-1">
+                    <li class="depth-1">
+                        <a href="company.html"><span>모나미소개</span></a>
+                        <ul class="gnb-depth-2">
+                        <li class="depth-2"><a href="javascript:void(0)"><span>회사정보</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>회사연혁</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>윤리강령</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>투자정보</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>CI</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>채용정보</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>찾아오시는 길</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="depth-1">
+                        <a href="product.html"><span>모나미제품</span></a>
+                        <ul class="gnb-depth-2">
+                        <li class="depth-2"><a href="javascript:void(0)"><span>프리미엄 펜</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>펜 · 펜슬</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>마카 · 컬러링</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>노트 · 사무용품</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>잉크 · 리필</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>카탈로그</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="depth-1">
+                        <a href="javascript:void(0)"><span>NEWS & VIDEO</span></a>
+                        <ul class="gnb-depth-2">
+                        <li class="depth-2"><a href="javascript:void(0)"><span>보도자료</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>동영상자료</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="depth-1">
+                        <a href="javascript:void(0)"><span>모나미미술대회</span></a>
+                        <ul class="gnb-depth-2">
+                        <li class="depth-2"><a href="javascript:void(0)"><span>미술대회 소개</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>수상작발표</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="depth-1">
+                        <a href="javascript:void(0)"><span>고객지원</span></a>
+                        <ul class="gnb-depth-2">
+                        <li class="depth-2"><a href="javascript:void(0)"><span>자주 묻는 질문</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>문의하기</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>이벤트</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="depth-1">
+                        <a href="javascript:void(0)"><span>기업 구매/개발</span></a>
+                        <ul class="gnb-depth-2">
+                        <li class="depth-2"><a href="javascript:void(0)"><span>대량 구매 문의</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>기업 및 단체 구매</span></a></li>
+                        <li class="depth-2"><a href="javascript:void(0)"><span>산업용 맞춤 제품개발</span></a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </nav>
+                <div class="side_wrap">
+                <ul class="util_menu">
+                    <li class="lang_btn">
+                        <button><i>KR</i></button>
+                        <ul class="lang_menu">
+                            <li class="on"><a href="" data-lang="KR">KR</a></li>
+                            <li><a href="" data-lang="EN">EN</a></li>
+                        </ul>
+                    </li>
+                    <li class="search_header">
+                        <button><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000;"></i></button>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </header>
+        <script src="header.js"></script>
+    <!-- main -->
+    <main>
+        <section class="about section scroll-spy"> <!-- about monami -->
+        <div class="visual add">
+            <div class="inner">
+            <div class="navi_wrap">
+                <ul class="page-navi">
+                    <li>
+                        <a href="index.html"><i class="fa-solid fa-house" style="color: #000000;"></i></a>
+                    </li>
+                    <li><a href="">모나미 소개</a></li>
+                    <li><a href="">회사 개요</a></li>
+                </ul>
+            </div>
+
+                <div class="intro">
+                    <div class="page-title">
+                        <h2>
+                            모나미 소개<span class="orange">.</span>
+                        </h2>
+                </div>
+                <div class="tab-sect ani">
+                    <a href="#" class="mob-current">회사 개요</a>
+                    <ul class="main-tab">
+                        <li class="slide-item"></li>
+                        <li class="current"><a href="">회사 개요</a></li>
+                        <li class=""><a href="">회사 연혁</a></li>
+                        <li class=""><a href="">윤리 강령</a></li>
+                        <li class=""><a href="">투자 정보</a></li>
+                        <li class=""><a href="">CI</a></li>
+                        <li class=""><a href="">채용 정보</a></li>
+                        <li class=""><a href="">찾아오시는 길</a></li>
+                        <li class=""><a href="">안전보건 경영방침</a></li>
+                        </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+            <div class="con">
+                <div class="left_img back-to-position to-right delay-0">
+                    <img src="img/his_img1.png" alt="" class="up">
+                    <img src="img/his_img2.png" alt="" class="down"></div>
+                <div class="right_txt back-to-position to-left delay-1">
+                    <p class="p1">About <span class="sp1">MONAMI</span></p>
+                    <h1>필기구의 대명사이자 국민 브랜드, <span class="sp2">모나미</span></h1>
+                    <p class="p2">필기구를 넘어 종합문구 분야의 선도적인 기업으로 건실한 성장을 이뤄온
+                        모나미는 국내시장 뿐 아니라 해외시장에서도 꾸준한 성장을 거둬 전세계
+                        다양한 국가로 수출되고 있습니다. <br> <br> 문구 업계의 혁신을 주도하며 사인펜,
+                        프러스펜, 네임펜, 보드 마카 등 수 많은 히트작들을 선보인 
+                    <span class="sp3">모나미는 종합문구분야의 선두 자리를 넘어 문구와 유통을 아우르는 새로운
+                        비즈니스 모델을 만들어 나가고 있습니다.</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="history section scroll-spy"> <!-- 연혁 -->
+            <div class="his">
+            <div class="his_inner">
+                <div class="since back-to-position to-right delay-0">
+                    <p>SINCE</p> <h1>1960</h1>
+                </div>
+                    <div class="v-line"></div> <!-- 세로선 -->
+                <div data-aos="fade-up" data-aos-duration="1000" class="center">
+                    <p class="tit">History</p> <br> 
+                    <h3>50년이 넘는 역사,</h3>
+                    <span>새롭게 만들어 나가는 모나미의 기업 문화</span>
+                    <div class="his_btn">
+                        <button class="his_detail">
+                            <a href=""><p>연혁 바로가기<i class="fa-solid fa-arrow-right" style="color: #000000;"></i></p></a>
+                        </button>
+                    </div>
+                </div>
+                    <div class="v-line-two"></div> <!-- 세로선 -->
+                <div class="year back-to-position to-left delay-1"><h1>2024</h1></div>
+            </div>
+        </div>
+        </section>
+
+        <section class="ceo section scroll-spy">
+            <div class="box">
+            <div class="ceo_inner">
+                <div class="ceo_tit">
+                    <p class="tit">CEO Message</p>
+                    <p class="p1">항상 당신 곁의 <span>소중한 친구</span>로 남겠습니다</p>
+                </div>
+                <div class="bc"></div>
+                <div class="ceo_txt back-to-position to-right delay-0">
+                    <p>안녕하십니까? (주)모나미 대표이사 송하경입니다. <br> 
+                        <br>
+                        모나미는 종합문구분야의 선두 자리를 넘어 문구와 유통을 아우르는 새로운 비즈니스 모델을 만들어  <br>나가고 있습니다. 
+                        하루가 다르게 변하는 트렌드와 시대의 변화에 대처하기 위해서 모나미의 기업 문화 <br> 역시 새롭게 만들어 나가고 있습니다. 
+                        미래를 긍정적으로 바라보면서 준비하고, 항상 즐거운 변화를 <br>추구하는 기업이 되겠습니다. <br> <br>
+
+                        시장에 대해서는 항상 겸손하고, 고객에 대해서는 항상 함께하는 친구 같은 마음과 자세로 대할 것입니다. <br>
+                        앞으로 모나미는 '오래된 친구지만 항상 신선하고 놀라움으로  가득찬, 그리고 미래를 위해 쉼 없이 노력하는' <br>
+                        기업이 되고자 합니다. 모나미의 새로운 변화와 도전을 지켜봐 주시길 바라며, 앞으로도 변함없는 사랑과 <br> 격려를 
+                        부탁드립니다. 
+                        <br>
+                        <br>
+                        감사합니다.</p>
+                </div>
+                <div class="ceo_info">
+                    <div class="ceo_img back-to-position to-left delay-1"><img src="img/ceo.PNG" alt=""></div>
+                    <div class="ceo_name">
+                        <p>(주)모나미 대표이사 <span>송하경</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </section>
+        <script src="scroll.js"></script>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="ft">
+        <div class="footer_inner">
+            <div class="left"> <!-- 왼쪽 -->
+                <a href="index.html"><span class="logo">MONAMI</span></a>
+
+                <div class="cs">
+                    <ul class="contact_menu">
+                        <p>고객 센터 080-022-0153</p>
+                        <li>
+                            <a href=""><button>카카오톡 문의</button></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="info_detail">
+                    <p><span>주소</span> 경기도 용인시 수지구 손곡로 17</p>
+                    <p><span>대표번호</span> 031-216-0153 <span> 팩스</span> 031-270-5154</p>
+                    <p>COPYRIGHTⓒ 2017 MONAMI.CO.,LTD. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+
+            <div class="right"> <!-- 오른쪽 -->
+                <ul class="footer_menu">
+                    <li>
+                        <a href="company.html">모나미소개</a>
+                    </li>
+                    <li>
+                        <a href="product.html">모나미제품</a>
+                    </li>
+                    <li>
+                        <a href="">NEWS & VIDEO</a>
+                    </li>
+                    <li>
+                        <a href="">모나미 미술대회</a>
+                    </li>
+                    <li>
+                        <a href="">고객지원</a>
+                    </li>
+                    <li>
+                        <a href="">기업 구매 / 개발</a>
+                    </li>
+                </ul>
+
+                <ul class="etc_menu">
+                    <li>
+                        <a class="bold" href="">개인정보처리방침</a>
+                    </li>
+                    <li>
+                        <a class="bold" href="">이메일무단수집거부</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </footer>
+<!-- 상단이동 btn -->
+<div class="topbtn">
+<a href="#"><i class="fa fa-arrow-up"></i></a>
+</div>
+</div> <!-- //wrap -->
+
+<script src="index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>

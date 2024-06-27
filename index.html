@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/83ff0e0a6f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="wrap">
+<!-- header -->
+    <header class="header">
+        <div class="header-inner layout">
+            <h1 class="logo"><a href="index.html">
+                <img src="img/모나미 로고.png" alt=""></a>
+            </h1>
+            <nav class="header-gnb">
+                <ul class="gnb-depth-1">
+                <li class="depth-1">
+                    <a href="company.html"><span>모나미소개</span></a>
+                    <ul class="gnb-depth-2">
+                    <li class="depth-2"><a href="javascript:void(0)"><span>회사정보</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>회사연혁</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>윤리강령</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>투자정보</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>CI</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>채용정보</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>찾아오시는 길</span></a></li>
+                    </ul>
+                </li>
+                <li class="depth-1">
+                    <a href="product.html"><span>모나미제품</span></a>
+                    <ul class="gnb-depth-2">
+                    <li class="depth-2"><a href="javascript:void(0)"><span>프리미엄 펜</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>펜 · 펜슬</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>마카 · 컬러링</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>노트 · 사무용품</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>잉크 · 리필</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>카탈로그</span></a></li>
+                    </ul>
+                </li>
+                <li class="depth-1">
+                    <a href="javascript:void(0)"><span>NEWS & VIDEO</span></a>
+                    <ul class="gnb-depth-2">
+                    <li class="depth-2"><a href="javascript:void(0)"><span>보도자료</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>동영상자료</span></a></li>
+                    </ul>
+                </li>
+                <li class="depth-1">
+                    <a href="javascript:void(0)"><span>모나미미술대회</span></a>
+                    <ul class="gnb-depth-2">
+                    <li class="depth-2"><a href="javascript:void(0)"><span>미술대회 소개</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>수상작발표</span></a></li>
+                    </ul>
+                </li>
+                <li class="depth-1">
+                    <a href="javascript:void(0)"><span>고객지원</span></a>
+                    <ul class="gnb-depth-2">
+                    <li class="depth-2"><a href="javascript:void(0)"><span>자주 묻는 질문</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>문의하기</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>이벤트</span></a></li>
+                    </ul>
+                </li>
+                <li class="depth-1">
+                    <a href="javascript:void(0)"><span>기업 구매/개발</span></a>
+                    <ul class="gnb-depth-2">
+                    <li class="depth-2"><a href="javascript:void(0)"><span>대량 구매 문의</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>기업 및 단체 구매</span></a></li>
+                    <li class="depth-2"><a href="javascript:void(0)"><span>산업용 맞춤 제품개발</span></a></li>
+                    </ul>
+                </li>
+                </ul>
+            </nav>
+            <div class="side_wrap">
+            <ul class="util_menu">
+                <li class="lang_btn">
+                    <button><i>KR</i></button>
+                    <ul class="lang_menu">
+                        <li class="on"><a href="" data-lang="KR">KR</a></li>
+                        <li><a href="" data-lang="EN">EN</a></li>
+                    </ul>
+                </li>
+                <li class="search_header">
+                    <button><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000;"></i></button>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </header>
+    <script src="header.js"></script>
+<!-- main -->
+        <main>
+            <!-- 영상 -->
+            <section class="visual">
+                <div class="visual_inner">
+                    <div id="backgroundText" class="bg_txt">
+                    <h1 class="title">
+                        <span>안녕하세요</span>
+                        <span>방문해주셔서</span>
+                        <span>감사합니다</span>
+                    </h1>
+                    
+                    <h2 class="title">
+                    <span>모나미 펜을</span>
+                    <span>직접 돌리면서</span>
+                    <span>경험해보세요</span>
+                    </h2>
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            const spans = document.querySelectorAll('.bg_txt span');
+                            let animationsCompleted = 0;
+                    
+                            spans.forEach(span => {
+                                span.addEventListener('animationend', function() {
+                                    animationsCompleted++;
+                                    if (animationsCompleted === spans.length) {
+                                        document.querySelector('#backgroundText').style.display = 'none';
+                                    }
+                                });
+                            });
+                        });
+                    </script>
+
+                <canvas id="canvas"></canvas>
+                </div>
+                <script type="importmap">
+                    {
+                        "imports": {
+                            "three": "https://unpkg.com/three@0.141.0/build/three.module.js",
+                            "GLTFLoader": "https://unpkg.com/three@0.141.0/examples/jsm/loaders/GLTFLoader.js",
+                            "OrbitControls": "https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js"
+                        }
+                    }
+                </script>
+                <script type="module" src="model.js"></script>
+                
+                <!-- <div class="video">
+                    <video src="http://dfrkkcv2hg1jc.cloudfront.net/data/video/monami_brand_web_60.mp4" autoplay loop muted></video>
+                </video> -->
+
+            </section>
+            <!-- NEW Arrival -->
+            <section class="New">
+                <div class="New_inner">
+
+                    <div data-aos="fade-up" class="title_box"> <!-- 왼쪽 텍스트 박스 -->
+                        <h2 class="main_title">NEW <br> Arrival</h2>
+                    </div> 
+
+                    <div class="product_box"> <!-- 오른쪽 제품 박스 -->
+                        <div data-aos="fade-up" data-aos-duration="1000" class="img_box"> <!-- 사진 -->
+                            <a href=""><img class="p_img" src="img/지퀀스.jpg" alt="">
+                                <img class="img_arrow" src="img/arrow2.png" alt=""></a>
+                        </div>
+                        
+                        <div class="p_name"> <!-- 제품 이름 -->
+                            <ul class="swiper_product">
+                                <li class="product_1  selected" data-img="img/지퀀스.jpg">
+                                    <a href="javascript:void(0);">
+                                        <span data-aos="fade-up" data-aos-duration="1000" class="type">NOTE</span>
+                                        <strong data-aos="fade-up" data-aos-duration="1200">지퀀스</strong>
+                                    </a>
+                                </li>
+                                <li class="product_2" data-img="img/제니스 7샤프.jpg">
+                                    <a href="javascript:void(0);">
+                                        <span data-aos="fade-up" data-aos-duration="600" class="type">SHARP</span>
+                                        <strong data-aos="fade-up" data-aos-duration="800" >제니스7샤프</strong>
+                                    </a>
+                                </li>
+                                <li class="product_3" data-img="img/FX ZETA C3.jpg">
+                                    <a href="javascript:void(0);">
+                                        <span data-aos="fade-up" data-aos-duration="1000" class="type">PEN</span>
+                                        <strong data-aos="fade-up" data-aos-duration="1200">FX ZETA C3</strong>
+                                    </a>
+                                </li>
+                                <li class="product_4" data-img="img/153 아이디 만년필.jpg">
+                                    <a href="javascript:void(0);">
+                                        <span data-aos="fade-up" data-aos-duration="1400" class="type">FOUNTAIN PEN</span>
+                                        <strong data-aos="fade-up" data-aos-duration="1500">153 아이디 만년필</strong>
+                                    </a>
+                                </li>
+                                <li class="product_5" data-img="img/153 리스펙트 리파인.jpg">
+                                    <a href="javascript:void(0);">
+                                        <span data-aos="fade-up" data-aos-duration="1600" class="type">PREMIUM PEN</span>
+                                        <strong data-aos="fade-up" data-aos-duration="1800"> 153 리스펙트 리파인</strong>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <script src="index.js"></script>
+            </section>
+            <!-- BEST PRODUCT -->
+            <section class="best">
+                <div class="best_inner">
+
+                    <div class="title_box2"> <!-- 왼쪽 텍스트 박스 -->
+                        <h2 data-aos="fade-up" class="main_title">BEST <br> Product</h2> <!-- 메인 타이틀 -->
+                        <div class="p_category"> <!-- 카테고리 선택 -->
+                            <ul class="category">
+                                <li data-aos="fade-up" data-aos-duration="1000" class="category_01">
+                                    <a href="">프리미엄펜</a>
+                                </li>
+                                <li data-aos="fade-up" data-aos-duration="1500" class="category_02">
+                                    <a href="">펜 · 펜슬</a>
+                                </li>
+                                <li data-aos="fade-up" data-aos-duration="2000" class="category_03">
+                                    <a href="">마카 · 컬러링</a>
+                                </li>
+                                <li data-aos="fade-up" data-aos-duration="2500" class="category_04">
+                                    <a href="">노트 · 사무용품</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2800" class="view_more"> <!-- 자세히 살펴보기 -->
+                            <a href="">자세히 살펴보기 <img src="img/arrow.png" alt=""></a>
+                        </div>
+                    </div>  <!-- //왼쪽 텍스트 박스 -->
+                    <div data-aos="fade-up" data-aos-duration="1000" class="p_lists"> <!-- 오른쪽 제품 박스 -->
+                        <ul class="wrapper_ul">
+                            <li>
+                                <a href="">
+                                    <div class="thum"><img src="img/p.153 리스펙트 리파인.jpg" alt=""></div>
+                                    <div class="info">
+                                        <p class="cate">프리미엄펜</p>
+                                        <strong class="name">153 리스펙트 리파인</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="thum"><img src="img/p. 153 네오 만년필 EF.jpg" alt=""></div>
+                                    <div class="info">
+                                        <p class="cate">만년필</p>
+                                        <strong class="name">153 네오 만년필 EF</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="thum"><img src="img/p. 153 네오.jpg" alt=""></div>
+                                    <div class="info">
+                                        <p class="cate">프리미엄펜</p>
+                                        <strong class="name">153 네오</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="thum"><img src="img/p. 153 리스펙트.jpg" alt=""></div>
+                                    <div class="info">
+                                        <p class="cate">프리미엄펜</p>
+                                        <strong class="name">153 리스펙트</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="thum"><img src="img/p. 153 아이디 샤프.jpg" alt=""></div>
+                                    <div class="info">
+                                        <p class="cate">고급 샤프</p>
+                                        <strong class="name">153 아이디 샤프</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="thum"><img src="img/p. 153 아이디.jpg" alt=""></div>
+                                    <div class="info">
+                                        <p class="cate">프리미엄펜</p>
+                                        <strong class="name">153 아이디</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="thum"><img src="img/p. 60주년 프러스펜.jpg" alt=""></div>
+                                    <div class="info">
+                                        <p class="cate">프리미엄펜</p>
+                                        <strong class="name2">60주년 프러스펜 3000 <br> 데스크펜 스페셜 에디션</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="thum"><img src="img/p.153 블랙&화이트.jpg" alt=""></div>
+                                    <div class="info">
+                                        <p class="cate">프리미엄펜</p>
+                                        <strong class="name">153 블랙&화이트</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="thum"><img src="img/p.153 골드.jpg" alt=""></div>
+                                    <div class="info">
+                                        <p class="cate">프리미엄펜</p>
+                                        <strong class="name">153 골드</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="thum"><img src="img/p.153 아이디 만년필.jpg" alt=""></div>
+                                    <div class="info">
+                                        <p class="cate">만년필</p>
+                                        <strong class="name">153 아이디 만년필</strong>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //오른쪽 제품 박스 -->
+                </div>
+            </section>
+            <!-- NEWS -->
+            <section class="news">
+                <div class="news_inner">
+                    <img data-aos="fade-left" class="news_bc" src="img/MONAMI.png" alt="">
+                    <div data-aos="fade-up" class="title_box3"> <!-- 왼쪽 텍스트 박스 -->
+                        <h2 class="main_title">MONAMI <br> <span> NEWS</span></h2> <!-- 메인 타이틀 -->
+                        <div class="view_more"> <!-- 자세히 살펴보기 -->
+                            <a href="">자세히 살펴보기 <img src="img/arrow.png" alt=""></a>
+                        </div>
+                    </div>  <!-- //왼쪽 텍스트 박스 -->
+
+                    <ul data-aos="fade-up" data-aos-duration="1000" class="list_sect"> <!-- 오른쪽 박스 -->
+                        <li class="ani_news"> <!-- 1번 기사 -->
+                            <a href="">
+                                <div class="list_wrap"> <!-- 날짜 -->
+                                    <p class="cate_news">New!</p>
+                                    <div class="date">
+                                        <p class="num">25</p>
+                                        <p class="num_det">2024.03</p>
+                                    </div>
+                                </div>
+                                <div class="text_sect"> <!-- 기사 -->
+                                    <p class="title">모나미 X 오닐(O’NEILL) 협업 컬렉션 출시</p>
+                                    <p class="txt">모나미 X 오닐(O'NEILL) 협업 컬렉션 출시... <br>
+                                        153 볼펜으로 구현한 펜 드로잉 스포츠웨어 눈길 </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="ani_news"> <!-- 2번 기사 -->
+                            <a href="">
+                                <div class="list_wrap"> <!-- 날짜 -->
+                                    <p class="cate_news">New!</p>
+                                    <div class="date">
+                                        <p class="num">19</p>
+                                        <p class="num_det">2024.02</p>
+                                    </div>
+                                </div>
+                                <div class="text_sect"> <!-- 기사 -->
+                                    <p class="title">모나미, 신학기 대전 진행</p>
+                                    <p class="txt">모나미, 신학기 대전 진행… 최대 63% 할인  <br>
+                                        2월 19일~25일 네이버 브랜드 스토어에서 신학기 이벤트 진행</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul> <!-- // 오른쪽 박스 -->
+                    <img data-aos="fade-right" class="news_bc2" src="img/NEWS.png" alt="">
+                </div>
+            </section>
+
+            <section class="sns">
+                <div class="sns_inner">
+                <div class="left_wrap"> <!-- 왼쪽 박스 -->
+                    <div class="ins">
+                        <p><a href="">Instargram</a></p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="left_img">
+                        <a href=""><img src="img/인스타그램.png" alt=""></a>
+                        <h1 class="ins_id"><a href="">@monami_official</a></h1>
+                    </div>
+                </div>
+                <div class="right_wrap">
+                    <ul class="sns_icon"> <!-- sns 아이콘 -->
+                        <li class="sns_sect">
+                            <a href="">
+                                <span><i data-aos="fade-up" data-aos-duration="500" class="fa-brands fa-instagram fa" style="color: #000000;"></i></span>
+                            </a>
+                        </li>
+                        <li class="sns_sect">
+                            <a href="">
+                                <span class="sp01"><i data-aos="fade-up" data-aos-duration="1000" class="fa-brands fa-youtube fa" style="color: #000000;"></i></span>
+                            </a>
+                        </li>
+                        <li class="sns_sect">
+                            <a href="">
+                                <span class="sp02"><i data-aos="fade-up" data-aos-duration="1500" class="fa-brands fa-facebook" style="color: #000000;"></i></i></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div data-aos="fade-up" data-aos-duration="1000" class="right_img">
+                        <a href="">
+                        <p>MONAMI mall</p>
+                        <img src="img/네이버스토어.png" alt="">
+                        <h1 class="store">브랜드스토어 <br> 바로가기 
+                            <i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i> 
+                        </h1></a>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <!-- 문의 -->
+            <section class="contact">
+                <div class="contact_wrap">
+                <div data-aos="fade-up" class="txt_box">
+                    <h3>CONTACT US</h3>
+                    <h1>문의하기</h1>
+                </div>
+                
+                <div class="c_wrap">
+                    <section class="type_box"> <!-- 왼쪽 박스 -->
+                        <p data-aos="fade-up" data-aos-duration="500" class="inq_type"><span class="orange">·</span> 문의 내용</p>
+                        <label for="type_pro"> <!-- 제품 문의 -->
+                            <input type="radio" name="contact_type" id="type_pro" value="1">
+                            <div class="slot">
+                                <div class="icon">
+                                    <img src="img/제품 문의.png" alt="">
+                                </div>
+                                <p>제품 분석</p>
+                            </div>
+                        </label>
+                        <label for="type_col"> <!-- 제안 사항 (콜라보레이션 포함) -->
+                            <input type="radio" name="contact_type" id="type_col" value="2">
+                            <div class="slot">
+                                <div class="icon">
+                                    <img src="img/제안 사항.png" alt="">
+                                </div>
+                                <p>제안 사항 (콜라보레이션 포함)</p>
+                            </div>
+                        </label>
+                        <label for="type_large"> <!-- 대량 구매 문의 -->
+                            <input type="radio" name="contact_type" id="type_large" value="3">
+                            <div class="slot">
+                                <div class="icon">
+                                    <img src="img/대량 구매 문의.png" alt="">
+                                </div>
+                                <p>대량 구매 문의</p>
+                            </div>
+                        </label>
+                        <label for="type_ind"> <!-- 산업용 제품 문의 -->
+                            <input type="radio" name="contact_type" id="type_ind" value="4">
+                            <div class="slot">
+                                <div class="icon">
+                                    <img src="img/산업용 제품 문의.png" alt="">
+                                </div>
+                                <p>산업용 제품 문의</p>
+                            </div>
+                        </label>
+                        <label for="type_etc"> <!-- 기타 문의 -->
+                            <input type="radio" name="contact_type" id="type_etc" value="5">
+                            <div class="slot">
+                                <div class="icon">
+                                    <img src="img/기타 문의.png" alt="">
+                                </div>
+                                <p>기타 문의</p>
+                            </div>
+                        </label>
+                    </section>
+
+                    <section class="write_box"> <!-- 오른쪽 박스 -->
+                        <p data-aos="fade-up" data-aos-duration="1000" class="inq_type"><span class="orange">·</span> 문의 작성</p>
+                        <div class="slot"> <!-- 이름 -->
+                            <span>이름</span>
+                            <input type="text" class="input_ty1" name="etc_3" value maxlength="100"
+                            required placeholder="이름을 입력해 주세요.">
+                        </div>
+                        <div class="slot"> <!-- 이메일 -->
+                            <span>이메일</span>
+                            <input type="email" class="input_ty1" name="etc_6" value maxlength="100"
+                            required placeholder="Google 정책으로 인해 Gmail의 경우 답변 회신을 받지 못할 수도 있으니, 도메인의 메일로 입력 부탁드립니다.">
+                            </label>
+                        </div>
+                        <div class="slot"> <!-- 제목 -->
+                            <span>제목</span>
+                            <input type="text" class="input_ty1" name="etc_3" value maxlength="100"
+                            required placeholder="제목을 입력해 주세요.">
+                        </div>
+                        <div class="slot"> <!-- 내용 -->
+                            <span>내용</span>
+                            <textarea name="content" id="content_" class="ta_ty1" required placeholder="내용을 입력해 주세요."></textarea>
+                        </div>
+                        
+                        <div class="submit_box"> <!-- 개인정보 동의 -->
+                            <div class="inq_agree">
+                                <label>
+                                    <input type="checkbox" id name="user_agree" value="Y">
+                                    <i></i>
+                                    <span>개인정보 수집 및 이용안내에 동의합니다.</span> <br>
+                                </label>
+                                <a href="">개인정보처리방침</a>
+                                </div>
+                            <input type="submit" id="button_submit" value="전송하기">
+                        </div>
+                    </section>
+                </div>
+            </div>
+            </section>
+        </main>
+<!-- footer -->
+        <footer>
+            <div class="footer_inner">
+                <div class="left"> <!-- 왼쪽 -->
+                    <a href="index.html"><span class="logo">MONAMI</span></a>
+
+                    <div class="cs">
+                        <ul class="contact_menu">
+                            <p>고객 센터 080-022-0153</p>
+                            <li>
+                                <a href=""><button>카카오톡 문의</button></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="info_detail">
+                        <p><span>주소</span> 경기도 용인시 수지구 손곡로 17</p>
+                        <p><span>대표번호</span> 031-216-0153 <span> 팩스</span> 031-270-5154</p>
+                        <p>COPYRIGHTⓒ 2017 MONAMI.CO.,LTD. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+
+                <div class="right"> <!-- 오른쪽 -->
+                    <ul class="footer_menu">
+                        <li>
+                            <a href="company.html">모나미소개</a>
+                        </li>
+                        <li>
+                            <a href="product.html">모나미제품</a>
+                        </li>
+                        <li>
+                            <a href="">NEWS & VIDEO</a>
+                        </li>
+                        <li>
+                            <a href="">모나미 미술대회</a>
+                        </li>
+                        <li>
+                            <a href="">고객지원</a>
+                        </li>
+                        <li>
+                            <a href="">기업 구매 / 개발</a>
+                        </li>
+                    </ul>
+
+                    <ul class="etc_menu">
+                        <li>
+                            <a class="bold" href="">개인정보처리방침</a>
+                        </li>
+                        <li>
+                            <a class="bold" href="">이메일무단수집거부</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+<!-- 상단이동 btn -->
+<div class="topbtn">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+</div>
+
+    </div> <!-- //wrap -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
